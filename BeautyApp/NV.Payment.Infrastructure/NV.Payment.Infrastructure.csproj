@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NV.Payment.Application\NV.Payment.Application.csproj" />
+    <ProjectReference Include="..\TN.Shared.Application\NV.Shared.Application.csproj" />
+  </ItemGroup>
+
+</Project>

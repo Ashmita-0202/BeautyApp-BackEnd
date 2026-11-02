@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NV.Feedbacks.Application\NV.Feedbacks.Application.csproj" />
+    <ProjectReference Include="..\TN.Shared.Domain\NV.Shared.Domain.csproj" />
+    <ProjectReference Include="..\TN.Shared.Infrastructure\NV.Shared.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
